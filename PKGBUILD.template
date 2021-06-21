@@ -1,0 +1,21 @@
+# Maintainer: kXuan <kxuanobj at gmail.com>
+
+pkgname=jetbrain-jre-with-inputmethod-fix
+pkgver=<%=tag_name %>
+pkgrel=1
+pkgdesc="The jetbrain runtime with inputmethod fixed by prehonor"
+arch=('i686' 'x86_64')
+url='https://github.com/Kxuan/JetBrainsRuntime-for-Linux-x64'
+license=('GPLv2')
+depends=('glib2')
+options=('!strip')
+
+source=(
+"<%=assets[0].browser_download_url %>"
+)
+sha512sums=('whatever')
+
+package() {
+  install -dm755 "${pkgdir}"/usr/lib/jvm/java-${pkgname}
+  cp -a "${srcdir}"/jbr/* "${pkgdir}"/usr/lib/jvm/java-${pkgname}
+}

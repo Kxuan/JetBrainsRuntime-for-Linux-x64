@@ -1,5 +1,5 @@
 # JetBrainsRuntime-for-Linux-x64  
-使用 Github Actions 每月 1 日定时编译社区大佬改进的 JetBrainsRuntime 的 Linux x64 版本  
+使用 Github Actions 每月 2 日定时把社区大佬 “每月 1 日定时编译社区大佬改进的 JetBrainsRuntime 的 Linux x64 版本” 自动更新到 AUR 上。  
 
 ## 说明  
 解决在 Linux x64 操作系统环境下，使用 JetBrains 系 IDE 存在的两个问题： 

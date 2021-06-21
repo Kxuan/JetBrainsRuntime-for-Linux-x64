@@ -1,0 +1,5 @@
+*.zip
+*.pkg.*
+PKGBUILD
+src
+pkg
