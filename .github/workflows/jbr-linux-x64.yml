@@ -18,7 +18,7 @@ jobs:
 
       - name: Update AUR
         id: aur
-        uses: Kxuan/aur-release-action@7c4f33a58ececc48f0b0d28f277164116e779897
+        uses: Kxuan/aur-release-action@f2ae9167df32b6593edcf25a66d6807556ed490d
         with:
           repo: RikudouPatrickstar/JetBrainsRuntime-for-Linux-x64
           ssh_private_key: ${{ secrets.SSH_PRIVATE_KEY }}
